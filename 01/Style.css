@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.alphacoders.com/911/thumb-1920-911839.png
+);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 100vh;
+    color: rgb(9, 9, 9);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 5em;
+    letter-spacing: 4px;
+    margin-top: 2px;
+}
+
+.menu a {
+    text-decoration: dotted;
+    color: rgba(19, 17, 17, 0.767);
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.menu a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid green;
+    transition: 0.4s linear;
+}
+
+.menu a:hover::before {
+    width: 90%;
+}
+
+
+.register a {
+    color: rgb(226, 43, 125);
+    text-decoration: dotted;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: blanchedalmond;
+    border-radius: 10px;
+    transition: 0.1s;
+    margin-top: 2px;
+
+}
+
+.register a:hover {
+    background: transparent;
+    border: 1px solid rgb(241, 236, 236);
+}
+
+.h-txt {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+.h-txt span {
+    letter-spacing: 2px;
+}
+
+.h-txt h1 {
+    font-size: 3.5em;
+}
+
+.h-txt a {
+    text-decoration: none;
+    background: indianred;
+    color: aliceblue;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.h-txt a:hover {
+    background: transparent;
+    color: aqua;
+    border: solid aqua;
+}
+.register{
+    margin-top: 2em;
+}
+.menu{
+    margin-top: 2em;
+}
+.logo{
+    margin-top: 1em;
+}
